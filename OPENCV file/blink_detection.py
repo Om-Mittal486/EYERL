@@ -9,8 +9,7 @@ import socket
 # --- Networking Setup ---
 UDP_IP = "127.0.0.1"  # Localhost
 UDP_PORT = 5005       # Port to send to (must match Unity)
-sock = socket.socket(socket.AF_INET,
-                      socket.SOCK_DGRAM) # UDP
+sock = socket.socket(socket.AF_INET,socket.SOCK_DGRAM) # UDP
 
 # --- Constants ---
 # Threshold for EAR to register a blink
